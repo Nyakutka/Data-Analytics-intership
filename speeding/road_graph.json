@@ -1,0 +1,279 @@
+{
+    "traffic_lights": [
+        {
+            "id": 1,
+            "actual_azimuth": [47.5791458],
+            "signal_groups": [
+                {
+                    "id": 1,
+                    "stop_line": [
+                        {
+                            "latitude": 53.26397927357598,
+                            "longitude": 50.24472427348448
+                        },
+                        {
+                            "latitude": 53.26396323050092,
+                            "longitude": 50.24475109557415
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "stop_line": [
+                        {
+                            "latitude": 53.26397927357598,
+                            "longitude": 50.24472427348448
+                        },
+                        {
+                            "latitude": 53.26396323050092,
+                            "longitude": 50.24475109557415
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "actual_azimuth": [316.7958535],
+            "signal_groups": [
+                {
+                    "id": 1,
+                    "stop_line": [
+                        {
+                            "latitude": 53.266293062587835,
+                            "longitude": 50.24114617982149
+                        },
+                        {
+                            "latitude": 53.26631234662058,
+                            "longitude": 50.24119264672116
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "stop_line": [
+                        {
+                            "latitude": 53.266293062587835,
+                            "longitude": 50.24114617982149
+                        },
+                        {
+                            "latitude": 53.26631234662058,
+                            "longitude": 50.24119264672116
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "node_id": 0,
+            "latitude": 53.261388,
+            "longitude": 50.240043,
+            "traffic_light": "False",
+            "neighbours": [
+                {
+                    "id": 1,
+                    "azimuth": 47.4785096,
+                    "speed_limit": 60,
+                    "min_speed_limit": 40
+                }
+            ]
+        },
+        {
+            "node_id": 1,
+            "latitude": 53.262072,
+            "longitude": 50.24129,
+            "traffic_light": "False",
+            "neighbours": [
+                {
+                    "id": 2,
+                    "azimuth": 135.5666022,
+                    "speed_limit": 60,
+                    "min_speed_limit": 40
+                },
+                {
+                    "id": 3,
+                    "azimuth": 47.5791458,
+                    "speed_limit": 60,
+                    "min_speed_limit": 40
+                }
+            ]
+        },
+        {
+            "node_id": 2,
+            "latitude": 53.261903,
+            "longitude": 50.241567,
+            "traffic_light": "False",
+            "neighbours": [
+                {
+                    "id": 1,
+                    "azimuth": 315.5668242,
+                    "speed_limit": 60,
+                    "min_speed_limit": 40
+                }
+            ]
+        },
+        {
+            "node_id": 3,
+            "latitude": 53.264023,
+            "longitude": 50.244857,
+            "traffic_light": "True",
+            "neighbours": [
+                {
+                    "trafic_lights": [
+                        {
+                            "id_traffic_light": 1,
+                            "signal_group": 1
+                        }
+                    ],
+                    "id": 4,
+                    "azimuth": 48.0463455,
+                    "speed_limit": 60,
+                    "min_speed_limit": 40
+                },
+                {
+                    "trafic_lights": [
+                        {
+                            "id_traffic_light": 1,
+                            "signal_group": 2
+                        }
+                    ],
+                    "id": 5,
+                    "azimuth": 320.9015315,
+                    "speed_limit": 60,
+                    "min_speed_limit": 40
+                }
+            ]
+        },
+        {
+            "node_id": 4,
+            "latitude": 53.267386,
+            "longitude": 50.251118,
+            "traffic_light": "False",
+            "neighbours": [
+                {
+                    "id": 3,
+                    "azimuth": 228.0515018,
+                    "speed_limit": 60,
+                    "min_speed_limit": 40
+                }
+            ]
+        },
+        {
+            "node_id": 5,
+            "latitude": 53.265452,
+            "longitude": 50.242612,
+            "traffic_light": "False",
+            "neighbours": [
+                {
+                    "id": 6,
+                    "azimuth": 316.7958535,
+                    "speed_limit": 60,
+                    "min_speed_limit": 40
+                }
+            ]
+        },
+        {
+            "node_id": 6,
+            "latitude": 53.266362,
+            "longitude": 50.241183,
+            "traffic_light": "True",
+            "neighbours": [
+                {
+                    "trafic_lights": [
+                        {
+                            "id_traffic_light": 2,
+                            "signal_group": 1
+                        }
+                    ],
+                    "id": 7,
+                    "azimuth": 228.7761424,
+                    "speed_limit": 60,
+                    "min_speed_limit": 40
+                },
+                {
+                    "trafic_lights": [
+                        {
+                            "id_traffic_light": 2,
+                            "signal_group": 2
+                        }
+                    ],
+                    "id": 8,
+                    "azimuth": 317.3902089,
+                    "speed_limit": 60,
+                    "min_speed_limit": 40
+                }
+            ]
+        },
+        {
+            "node_id": 7,
+            "latitude": 53.265436,
+            "longitude": 50.239416,
+            "traffic_light": "False",
+            "neighbours": [
+                {
+                    "id": 6,
+                    "azimuth": 48.7747263,
+                    "speed_limit": 60,
+                    "min_speed_limit": 40
+                }
+            ]
+        },
+        {
+            "node_id": 8,
+            "latitude": 53.266875,
+            "longitude": 50.240394,
+            "traffic_light": "False",
+            "neighbours": [
+                {
+                    "id": 9,
+                    "azimuth": 317.1238053,
+                    "speed_limit": 40,
+                    "min_speed_limit": 20
+                },
+                {
+                    "id": 10,
+                    "azimuth": 49.2585954,
+                    "speed_limit": 20,
+                    "min_speed_limit": 0
+                }
+            ]
+        },
+        {
+            "node_id": 9,
+            "latitude": 53.268104,
+            "longitude": 50.238486,
+            "traffic_light": "False",
+            "neighbours": [
+                {
+                    "id": 8,
+                    "azimuth": 137.1222761,
+                    "speed_limit": 40,
+                    "min_speed_limit": 20
+                }
+            ]
+        },
+        {
+            "node_id": 10,
+            "latitude": 53.267469,
+            "longitude": 50.241547,
+            "traffic_light": "False",
+            "neighbours": [
+                {
+                    "id": 11,
+                    "azimuth": 134.3008311,
+                    "speed_limit": 20,
+                    "min_speed_limit": 0
+                }
+            ]
+        },
+        {
+            "node_id": 11,
+            "latitude": 53.266224,
+            "longitude": 50.24368,
+            "traffic_light": "False",
+            "neighbours": []
+        }
+    ]
+}

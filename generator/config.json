@@ -1,0 +1,35 @@
+{
+    "format": "CSV",
+    "frequency": 2,
+    "start": {
+        "latitude": 53.261382,
+        "longitude": 50.240032,
+        "time": "2022-06-21T14:33:26+0000"
+    },
+    "points":[
+        {
+            "latitude": 53.264023,
+            "longitude": 50.244857,
+            "speed": 80,
+            "max_acceleraion": 25920
+        },
+        {
+            "latitude": 53.266883,
+            "longitude": 50.240405,
+            "speed": 40,
+            "max_acceleraion": 25920
+        },
+        {
+            "latitude": 53.267478,
+            "longitude": 50.241536,
+            "speed": 40,
+            "max_acceleraion": 25920
+        },
+        {
+            "latitude": 53.266145,
+            "longitude": 50.243806,
+            "speed": 20,
+            "max_acceleraion": 25920
+        }        
+    ]
+}
